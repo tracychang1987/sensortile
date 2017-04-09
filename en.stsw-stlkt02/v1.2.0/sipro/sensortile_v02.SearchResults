@@ -1,0 +1,4 @@
+---- Enable_Double_Tap_Detection Matches (3 in 2 files) ----
+LSM6DSM_ACC_GYRO_driver_HL.h (e:\tracy\sensortile\en.stsw-stlkt02\v1.2.0\drivers\bsp\components\lsm6dsm):  DrvStatusTypeDef ( *Enable_Double_Tap_Detection     ) ( DrvContextTypeDef* );
+SensorTile_accelero.c (e:\tracy\sensortile\en.stsw-stlkt02\v1.2.0\drivers\bsp\sensortile):    if ( extDriver->Enable_Double_Tap_Detection == NULL )
+SensorTile_accelero.c (e:\tracy\sensortile\en.stsw-stlkt02\v1.2.0\drivers\bsp\sensortile):      return extDriver->Enable_Double_Tap_Detection( ctx );
