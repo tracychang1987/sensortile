@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@drawable/a33">
+    <!--android:weightSum="1" tools:context="com.st.BlueSTSDK.Example.FeatureListActivity"-->
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="button_temp_click"
+        android:id="@+id/button_temp_id"
+        android:text="温度显示"
+        android:layout_weight="0.08"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="当前温度为："
+        android:id="@+id/textView_temp_id"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.11"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="button_accx_click"
+        android:id="@+id/button_accx_id"
+        android:text="X轴/Y轴/Z轴加速度"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:text="当前加速度为："
+        android:id="@+id/textView_accx_id"
+        android:layout_height="20dp"
+        android:layout_weight="0.11"
+        android:textSize="30sp"
+        android:scrollbars="horizontal"
+        android:layout_width="match_parent" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="button_press_click"
+        android:id="@+id/button_press_id"
+        android:text="大气压"
+        android:layout_weight="0.08"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="当前大气压为："
+        android:id="@+id/textView_press_id"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.08"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="button_switch_click"
+        android:id="@+id/button_switch_id"
+        android:text="打开/关闭LED灯显示"
+        android:layout_weight="0.08"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="开关状态："
+        android:id="@+id/textView_switch_id"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.08"
+        android:textSize="30sp" />
+
+</LinearLayout>
+
